@@ -4,6 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Full-Stack Fetch Sandbox</title>
+  <link rel="stylesheet" href="css/error-display.css">  
   <style>
     body {
       font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
@@ -27,7 +28,7 @@
     button:hover {
       background-color: #f0f0f0;
     }
-    /* Dynamic UI Containers */
+    /* output */
     #result {
       margin-top: 30px;
       font-size: 1.25rem;
@@ -35,18 +36,7 @@
       padding: 15px;
       border-radius: 4px;
     }
-    #error-display {
-      display: none; /* Hidden by default */
-      margin-top: 20px;
-      padding: 15px;
-      background-color: #fdf2f2;
-      border: 1px solid #f8b4b4;
-      border-radius: 4px;
-      color: #9b1c1c;
-      font-family: monospace;
-      text-align: left;
-      white-space: pre-wrap;
-    }
+
   </style>
 </head>
 <body>
@@ -58,6 +48,6 @@
   
   <div id="error-display"></div>
 
-  <script src="script.js"></script>
+  <script src="js/script.js"></script>
 </body>
 </html>

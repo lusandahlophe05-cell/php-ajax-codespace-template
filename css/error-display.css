@@ -1,0 +1,12 @@
+    #error-display {
+      display: none; /* Hidden by default */
+      margin-top: 20px;
+      padding: 15px;
+      background-color: #fdf2f2;
+      border: 1px solid #f8b4b4;
+      border-radius: 4px;
+      color: #9b1c1c;
+      font-family: monospace;
+      text-align: left;
+      white-space: pre-wrap;
+    }

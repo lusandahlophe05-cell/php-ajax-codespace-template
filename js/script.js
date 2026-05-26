@@ -31,7 +31,7 @@ document.getElementById("fetchData").addEventListener("click", () => {
 });
 
 /**
- * Dispatches errors to the chosen target based on instructor configuration
+ * Dispatches errors to the chosen target based on configuration
  */
 function handleRoutingError(error) {
   const errorMessage = `⚠️ FETCH FAILURE DETAILS:\n-------------------------\nMessage: ${error.message}\nType: ${error.name}`;
