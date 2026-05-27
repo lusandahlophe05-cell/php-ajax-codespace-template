@@ -28,6 +28,14 @@ function getRandomQuote() {
     
       const quoteContainer = document.getElementById("result");
       quoteContainer.innerHTML = data;
+      
+       // --- TYPOGRAPHY LOOP ROTATION ---
+      // 1. Set the element's inline font-family to the current font index matching our counter
+      quoteContainer.style.fontFamily = fonts[rotating];
+      
+      // 2. Add 1 to counter. The % remainder operator forces it to cycle back to 0 when it hits the limit!
+      rotating = (rotating + 1) % fonts.length;
+
 
        // --- TRANSITION CONTROLLER ---
       // Remove the class, force a browser reflow trick, then re-add the class
