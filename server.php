@@ -1,5 +1,5 @@
 <?php
-header("Content-Type: text/plain; charset=UTF-8");
+header("Access-Control-Allow-Origin: *");
 header("Cache-Control: no-cache, must-revalidate");
 
 $quotes = [
